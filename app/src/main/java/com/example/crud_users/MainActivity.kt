@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        //SharedPreferencs
+
         binding.btnInserir.setOnClickListener {
             if(binding.inputNome.text.trim().isEmpty() || binding.inputPass.text.trim().isEmpty())
             {
